@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'Josefin';
+    src: url(JosefinSans-VariableFont_wght.ttf) format('truetype');
+    font-weight: 900;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin';
+}
+body{
+    max-width: 100vw;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.table{
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    padding-top: 20px;
+}
+.firstrow{
+    display: flex;   
+    gap: 285px;
+}
+.lightyellow{
+    background-color: lightgoldenrodyellow;
+    padding: 2px;  
+    border: 1px solid grey;
+    width:73px;
+    height: 69px;
+    margin: 0px 0px 0px 2px
+}
+.type{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 7px;
+}
+.num{
+   display: flex;
+   justify-content: center;
+   font-size: 12px;
+}
+.sym{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: 2px;
+}
+.lightgreen1{
+    background-color: rgb(172, 243, 168);
+    margin-left: 572px;
+    border: 1px solid grey;
+    width:73px;
+    height: 69px;
+}
+.bisque1{
+    background-color: bisque;   
+    border: 1px solid grey;
+    width:73px;
+    height: 69px;
+    margin: 0px 0px 0px 914px;
+}
+.lightgreen{
+    background-color: rgb(172, 243, 168);
+    border: 1px solid grey;
+    width:73px;
+    height: 69px;
+    margin: 0px 0px 0px 2px;
+}
+.bisque{
+    background-color: bisque;   
+    border: 1px solid grey;
+    width:73px;
+    height: 69px;
+    margin: 0px 0px 0px 2px
+}
+.pink{
+    background-color: pink;
+    padding: 5px;
+    border: 1px solid grey;
+    width:73px;
+    height: 69px;
+    margin: 0px 0px 0px 2px
+}
+.secondrow{
+    display: flex;
+    width: 100%;
+    margin: 2px 0px 0px 37px;
+}
+.green{
+    margin-left: 750px;
+}
+.blue{
+    margin-right: 300px;
+}
+.lightb{
+    background-color: lightblue;
+    padding: 2px;
+    border: 1px solid grey;
+    width:73px;
+    height: 71px;
+    margin: 0px 0px 0px 2px;
+}
+.nothing{
+    padding: 2px;
+    width:73px;
+    height: 69px;
+    margin: 0px 0px 0px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thirdrow{
+    display: flex;
+    margin: 2px 0px 0px 36px;
+    width: 100%;
+}
+.fourthrow{
+    display: flex;
+    margin:2px 2px 0px 2px;
+}
+.bisque2{
+    background-color: bisque;
+    padding: 2px;
+    border: 1px solid grey;
+    width:73px;
+    height: 69px;
+    margin: 0px 0px 0px 2px;
+    margin-left: 612px;
+}
+.lightgreen2{
+    background-color: rgb(185, 255, 181); 
+    margin-left: 572px;
+    border: 1px solid grey;
+    width:73px;
+    height: 69px;
+}
+.lightgreen3{
+    background-color: rgb(185, 255, 181); 
+    border: 1px solid grey;
+    margin:0px 0px 0px 2px;
+    width:73px;
+    height: 69px;
+}
+.fifthrow{
+    display: flex;
+    margin:2px 2px 0px 1px;
+}
+.sixthrow{
+    display: flex;
+    margin:2px 2px 0px 2px;
+}
+.seventhrow{
+    display: flex;
+    margin:2px 2px 0px 1px;
+}
+.eigthrow{
+    display: flex;
+    margin:8px 2px 0px 1px;
+}
+.name1{
+    padding-left: 40px;
+    font-size: 7px;
+    margin-top: 2px;
+}
+.ninthrow{
+    display: flex;
+    margin: 2px 2px 0px 1px;
+}
+.alu{
+    margin-left: 750px;
+}
+@media only screen and (max-width:768px){
+    body{
+        overflow: scroll;
+    }
+}
