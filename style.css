@@ -179,3 +179,13 @@
         font-size: 3px;
     }
 }
+@media only screen and (max-width:912px){
+    .table{
+        zoom: 0.9;
+    }
+}
+@media only screen and (max-width:540px){
+    .table{
+        zoom: 0.5;
+    }
+}
